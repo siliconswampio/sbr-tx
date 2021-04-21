@@ -1,5 +1,5 @@
 import Common from '@ethereumjs/common'
-import { BN } from 'ethereumjs-util'
+import { BN } from 'sbr-util'
 import tape from 'tape'
 import { AccessListEIP2930Transaction, TransactionFactory, Transaction } from '../src'
 

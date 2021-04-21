@@ -189,7 +189,7 @@ Packages now target `ES2017` for Node.js builds (the `main` entrypoint from `pac
 
 **Changes and Refactoring**
 
-- Updated `ethereumjs-util` to v7, PR [#748](https://github.com/ethereumjs/ethereumjs-monorepo/pull/748)
+- Updated `sbr-util` to v7, PR [#748](https://github.com/ethereumjs/ethereumjs-monorepo/pull/748)
 - Replaced `new Buffer()` (deprecated) statements with `Buffer.from()`, PR [#721](https://github.com/ethereumjs/ethereumjs-monorepo/pull/721)
 - Dropped `ethereumjs-testing` dev dependency, PR [#953](https://github.com/ethereumjs/ethereumjs-monorepo/pull/953)
 
@@ -305,7 +305,7 @@ in performance benefits for Node.js consumers, see [here](https://github.com/eth
 
 **Changes and Refactoring**
 
-- Updated `ethereumjs-util` to v7,
+- Updated `sbr-util` to v7,
   PR [#748](https://github.com/ethereumjs/ethereumjs-monorepo/pull/748)
 - Replaced `new Buffer()` (deprecated) statements with `Buffer.from()`,
   PR [#721](https://github.com/ethereumjs/ethereumjs-monorepo/pull/721)

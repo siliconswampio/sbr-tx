@@ -3,7 +3,7 @@ import Common from '@ethereumjs/common'
 import { Transaction, AccessListEIP2930Transaction } from '../src'
 import { TxsJsonEntry } from './types'
 import { BaseTransaction } from '../src/baseTransaction'
-import { privateToPublic } from 'ethereumjs-util'
+import { privateToPublic } from 'sbr-util'
 
 tape('[BaseTransaction]', function (t) {
   // EIP-2930 is not enabled in Common by default (2021-03-06)

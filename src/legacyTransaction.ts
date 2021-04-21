@@ -7,7 +7,7 @@ import {
   rlphash,
   toBuffer,
   unpadBuffer,
-} from 'ethereumjs-util'
+} from 'sbr-util'
 import { TxOptions, TxData, JsonTx, N_DIV_2 } from './types'
 import { BaseTransaction } from './baseTransaction'
 

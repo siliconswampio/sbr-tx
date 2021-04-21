@@ -1,4 +1,4 @@
-import { BN, toBuffer } from 'ethereumjs-util'
+import { BN, toBuffer } from 'sbr-util'
 import Common from '@ethereumjs/common'
 import { default as Transaction } from './legacyTransaction'
 import { default as AccessListEIP2930Transaction } from './eip2930Transaction'

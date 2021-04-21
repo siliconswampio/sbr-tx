@@ -7,7 +7,7 @@ import {
   unpadBuffer,
   ecsign,
   publicToAddress,
-} from 'ethereumjs-util'
+} from 'sbr-util'
 import {
   TxData,
   TxOptions,

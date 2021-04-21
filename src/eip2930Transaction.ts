@@ -8,7 +8,7 @@ import {
   rlp,
   setLengthLeft,
   toBuffer,
-} from 'ethereumjs-util'
+} from 'sbr-util'
 import { BaseTransaction } from './baseTransaction'
 import {
   AccessList,
@@ -351,7 +351,7 @@ export default class AccessListEIP2930Transaction extends BaseTransaction<Access
         value: this.value,
         data: this.data,
         accessList: this.accessList,
-        v: new BN(v - 27), // This looks extremely hacky: ethereumjs-util actually adds 27 to the value, the recovery bit is either 0 or 1.
+        v: new BN(v - 27), // This looks extremely hacky: sbr-util actually adds 27 to the value, the recovery bit is either 0 or 1.
         r: new BN(r),
         s: new BN(s),
       },
