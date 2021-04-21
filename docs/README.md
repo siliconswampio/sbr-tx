@@ -1,6 +1,6 @@
-@ethereumjs/tx
+@sbr/tx
 
-# @ethereumjs/tx
+# @sbr/tx
 
 ## Table of contents
 

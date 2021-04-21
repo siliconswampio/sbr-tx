@@ -1,4 +1,4 @@
-[@ethereumjs/tx](../README.md) / [types](../modules/types.md) / AccessListEIP2930TxData
+[@sbr/tx](../README.md) / [types](../modules/types.md) / AccessListEIP2930TxData
 
 # Interface: AccessListEIP2930TxData
 
@@ -37,7 +37,7 @@ An object with an optional field with each of the transaction's values.
 
 The access list which contains the addresses/storage slots which the transaction wishes to access
 
-Defined in: [types.ts:128](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L128)
+Defined in: [types.ts:128](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L128)
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 The transaction's chain ID
 
-Defined in: [types.ts:123](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L123)
+Defined in: [types.ts:123](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L123)
 
 ___
 
@@ -59,7 +59,7 @@ This will contain the data of the message or the init of a contract.
 
 Inherited from: TxData.data
 
-Defined in: [types.ts:98](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L98)
+Defined in: [types.ts:98](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L98)
 
 ___
 
@@ -71,7 +71,7 @@ The transaction's gas limit.
 
 Inherited from: TxData.gasLimit
 
-Defined in: [types.ts:83](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L83)
+Defined in: [types.ts:83](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L83)
 
 ___
 
@@ -83,7 +83,7 @@ The transaction's gas price.
 
 Inherited from: TxData.gasPrice
 
-Defined in: [types.ts:78](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L78)
+Defined in: [types.ts:78](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L78)
 
 ___
 
@@ -95,7 +95,7 @@ The transaction's nonce.
 
 Inherited from: TxData.nonce
 
-Defined in: [types.ts:73](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L73)
+Defined in: [types.ts:73](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L73)
 
 ___
 
@@ -107,7 +107,7 @@ EC signature parameter.
 
 Inherited from: TxData.r
 
-Defined in: [types.ts:108](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L108)
+Defined in: [types.ts:108](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L108)
 
 ___
 
@@ -119,7 +119,7 @@ EC signature parameter.
 
 Inherited from: TxData.s
 
-Defined in: [types.ts:113](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L113)
+Defined in: [types.ts:113](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L113)
 
 ___
 
@@ -131,7 +131,7 @@ The transaction's the address is sent to.
 
 Inherited from: TxData.to
 
-Defined in: [types.ts:88](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L88)
+Defined in: [types.ts:88](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L88)
 
 ___
 
@@ -141,7 +141,7 @@ ___
 
 The transaction type
 
-Defined in: [types.ts:134](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L134)
+Defined in: [types.ts:134](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L134)
 
 ___
 
@@ -153,7 +153,7 @@ EC recovery ID.
 
 Inherited from: TxData.v
 
-Defined in: [types.ts:103](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L103)
+Defined in: [types.ts:103](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L103)
 
 ___
 
@@ -165,4 +165,4 @@ The amount of Ether sent.
 
 Inherited from: TxData.value
 
-Defined in: [types.ts:93](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L93)
+Defined in: [types.ts:93](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L93)

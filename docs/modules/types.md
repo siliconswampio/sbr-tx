@@ -1,4 +1,4 @@
-[@ethereumjs/tx](../README.md) / types
+[@sbr/tx](../README.md) / types
 
 # Module: types
 
@@ -35,7 +35,7 @@
 
 Ƭ **AccessList**: [*AccessListItem*](types.md#accesslistitem)[]
 
-Defined in: [types.ts:48](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L48)
+Defined in: [types.ts:48](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L48)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 Ƭ **AccessListBuffer**: [*AccessListBufferItem*](types.md#accesslistbufferitem)[]
 
-Defined in: [types.ts:47](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L47)
+Defined in: [types.ts:47](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L47)
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 Ƭ **AccessListBufferItem**: [Buffer, Buffer[]]
 
-Defined in: [types.ts:46](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L46)
+Defined in: [types.ts:46](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L46)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 Buffer values array for EIP2930 transaction
 
-Defined in: [types.ts:140](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L140)
+Defined in: [types.ts:140](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L140)
 
 ___
 
@@ -71,12 +71,12 @@ ___
 
 #### Type declaration:
 
-Name | Type |
-:------ | :------ |
-`address` | PrefixedHexString |
-`storageKeys` | PrefixedHexString[] |
+| Name | Type |
+| :------ | :------ |
+| `address` | PrefixedHexString |
+| `storageKeys` | PrefixedHexString[] |
 
-Defined in: [types.ts:38](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L38)
+Defined in: [types.ts:38](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L38)
 
 ___
 
@@ -86,19 +86,19 @@ ___
 
 #### Type declaration:
 
-Name | Type | Description |
-:------ | :------ | :------ |
-`data`? | BufferLike | This will contain the data of the message or the init of a contract.   |
-`gasLimit`? | BNLike | The transaction's gas limit.   |
-`gasPrice`? | BNLike | The transaction's gas price.   |
-`nonce`? | BNLike | The transaction's nonce.   |
-`r`? | BNLike | EC signature parameter.   |
-`s`? | BNLike | EC signature parameter.   |
-`to`? | AddressLike | The transaction's the address is sent to.   |
-`v`? | BNLike | EC recovery ID.   |
-`value`? | BNLike | The amount of Ether sent.   |
+| Name | Type | Description |
+| :------ | :------ | :------ |
+| `data?` | BufferLike | This will contain the data of the message or the init of a contract. |
+| `gasLimit?` | BNLike | The transaction's gas limit. |
+| `gasPrice?` | BNLike | The transaction's gas price. |
+| `nonce?` | BNLike | The transaction's nonce. |
+| `r?` | BNLike | EC signature parameter. |
+| `s?` | BNLike | EC signature parameter. |
+| `to?` | AddressLike | The transaction's the address is sent to. |
+| `v?` | BNLike | EC recovery ID. |
+| `value?` | BNLike | The amount of Ether sent. |
 
-Defined in: [types.ts:69](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L69)
+Defined in: [types.ts:69](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L69)
 
 ___
 
@@ -106,7 +106,7 @@ ___
 
 Ƭ **TypedTransaction**: [*default*](../classes/legacytransaction.default.md) \| [*default*](../classes/eip2930transaction.default.md)
 
-Defined in: [types.ts:67](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L67)
+Defined in: [types.ts:67](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L67)
 
 ## Variables
 
@@ -116,7 +116,7 @@ Defined in: [types.ts:67](https://github.com/ethereumjs/ethereumjs-monorepo/blob
 
 A const defining secp256k1n/2
 
-Defined in: [types.ts:177](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L177)
+Defined in: [types.ts:177](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L177)
 
 ## Functions
 
@@ -126,13 +126,13 @@ Defined in: [types.ts:177](https://github.com/ethereumjs/ethereumjs-monorepo/blo
 
 #### Parameters:
 
-Name | Type |
-:------ | :------ |
-`input` | [*AccessListBuffer*](types.md#accesslistbuffer) \| [*AccessList*](types.md#accesslist) |
+| Name | Type |
+| :------ | :------ |
+| `input` | [*AccessListBuffer*](types.md#accesslistbuffer) \| [*AccessList*](types.md#accesslist) |
 
 **Returns:** input is AccessList
 
-Defined in: [types.ts:63](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L63)
+Defined in: [types.ts:63](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L63)
 
 ___
 
@@ -142,10 +142,10 @@ ___
 
 #### Parameters:
 
-Name | Type |
-:------ | :------ |
-`input` | [*AccessListBuffer*](types.md#accesslistbuffer) \| [*AccessList*](types.md#accesslist) |
+| Name | Type |
+| :------ | :------ |
+| `input` | [*AccessListBuffer*](types.md#accesslistbuffer) \| [*AccessList*](types.md#accesslist) |
 
 **Returns:** input is AccessListBuffer
 
-Defined in: [types.ts:50](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L50)
+Defined in: [types.ts:50](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L50)

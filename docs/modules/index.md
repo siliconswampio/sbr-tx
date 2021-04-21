@@ -1,4 +1,4 @@
-[@ethereumjs/tx](../README.md) / index
+[@sbr/tx](../README.md) / index
 
 # Module: index
 

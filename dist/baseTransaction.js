@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.BaseTransaction = void 0;
-const common_1 = __importDefault(require("@ethereumjs/common"));
+const common_1 = __importDefault(require("@sbr/common"));
 const sbr_util_1 = require("sbr-util");
 /**
  * This base class will likely be subject to further

@@ -1,4 +1,4 @@
-[@ethereumjs/tx](../README.md) / [legacyTransaction](../modules/legacytransaction.md) / default
+[@sbr/tx](../README.md) / [legacyTransaction](../modules/legacytransaction.md) / default
 
 # Class: default
 
@@ -73,16 +73,16 @@ varying data types.
 
 #### Parameters:
 
-Name | Type | Default value |
-:------ | :------ | :------ |
-`txData` | [*TxData*](../modules/types.md#txdata) | - |
-`opts` | [*TxOptions*](../interfaces/types.txoptions.md) | {} |
+| Name | Type | Default value |
+| :------ | :------ | :------ |
+| `txData` | [*TxData*](../modules/types.md#txdata) | - |
+| `opts` | [*TxOptions*](../interfaces/types.txoptions.md) | {} |
 
 **Returns:** [*default*](legacytransaction.default.md)
 
 Overrides: [BaseTransaction](basetransaction.basetransaction-1.md)
 
-Defined in: [legacyTransaction.ts:80](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/legacyTransaction.ts#L80)
+Defined in: [legacyTransaction.ts:80](https://github.com/siliconswampio/sbr-tx/blob/master/src/legacyTransaction.ts#L80)
 
 ## Properties
 
@@ -92,7 +92,7 @@ Defined in: [legacyTransaction.ts:80](https://github.com/ethereumjs/ethereumjs-m
 
 Inherited from: [BaseTransaction](basetransaction.basetransaction-1.md).[common](basetransaction.basetransaction-1.md#common)
 
-Defined in: [baseTransaction.ts:35](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L35)
+Defined in: [baseTransaction.ts:35](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L35)
 
 ___
 
@@ -102,7 +102,7 @@ ___
 
 Inherited from: [BaseTransaction](basetransaction.basetransaction-1.md).[data](basetransaction.basetransaction-1.md#data)
 
-Defined in: [baseTransaction.ts:34](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L34)
+Defined in: [baseTransaction.ts:34](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L34)
 
 ___
 
@@ -112,7 +112,7 @@ ___
 
 Inherited from: [BaseTransaction](basetransaction.basetransaction-1.md).[gasLimit](basetransaction.basetransaction-1.md#gaslimit)
 
-Defined in: [baseTransaction.ts:30](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L30)
+Defined in: [baseTransaction.ts:30](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L30)
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 Inherited from: [BaseTransaction](basetransaction.basetransaction-1.md).[gasPrice](basetransaction.basetransaction-1.md#gasprice)
 
-Defined in: [baseTransaction.ts:31](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L31)
+Defined in: [baseTransaction.ts:31](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L31)
 
 ___
 
@@ -132,7 +132,7 @@ ___
 
 Inherited from: [BaseTransaction](basetransaction.basetransaction-1.md).[nonce](basetransaction.basetransaction-1.md#nonce)
 
-Defined in: [baseTransaction.ts:29](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L29)
+Defined in: [baseTransaction.ts:29](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L29)
 
 ___
 
@@ -142,7 +142,7 @@ ___
 
 Inherited from: [BaseTransaction](basetransaction.basetransaction-1.md).[r](basetransaction.basetransaction-1.md#r)
 
-Defined in: [baseTransaction.ts:38](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L38)
+Defined in: [baseTransaction.ts:38](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L38)
 
 ___
 
@@ -152,7 +152,7 @@ ___
 
 Inherited from: [BaseTransaction](basetransaction.basetransaction-1.md).[s](basetransaction.basetransaction-1.md#s)
 
-Defined in: [baseTransaction.ts:39](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L39)
+Defined in: [baseTransaction.ts:39](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L39)
 
 ___
 
@@ -162,7 +162,7 @@ ___
 
 Inherited from: [BaseTransaction](basetransaction.basetransaction-1.md).[to](basetransaction.basetransaction-1.md#to)
 
-Defined in: [baseTransaction.ts:32](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L32)
+Defined in: [baseTransaction.ts:32](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L32)
 
 ___
 
@@ -172,7 +172,7 @@ ___
 
 Inherited from: [BaseTransaction](basetransaction.basetransaction-1.md).[v](basetransaction.basetransaction-1.md#v)
 
-Defined in: [baseTransaction.ts:37](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L37)
+Defined in: [baseTransaction.ts:37](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L37)
 
 ___
 
@@ -182,7 +182,7 @@ ___
 
 Inherited from: [BaseTransaction](basetransaction.basetransaction-1.md).[value](basetransaction.basetransaction-1.md#value)
 
-Defined in: [baseTransaction.ts:33](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L33)
+Defined in: [baseTransaction.ts:33](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L33)
 
 ## Accessors
 
@@ -194,7 +194,7 @@ Returns the transaction type
 
 **Returns:** *number*
 
-Defined in: [baseTransaction.ts:80](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L80)
+Defined in: [baseTransaction.ts:80](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L80)
 
 ___
 
@@ -206,7 +206,7 @@ Alias for `transactionType`
 
 **Returns:** *number*
 
-Defined in: [baseTransaction.ts:87](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L87)
+Defined in: [baseTransaction.ts:87](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L87)
 
 ## Methods
 
@@ -220,7 +220,7 @@ The minimum amount of gas the tx must have (DataFee + TxFee + Creation Fee)
 
 Inherited from: [BaseTransaction](basetransaction.basetransaction-1.md)
 
-Defined in: [baseTransaction.ts:115](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L115)
+Defined in: [baseTransaction.ts:115](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L115)
 
 ___
 
@@ -234,7 +234,7 @@ The amount of gas paid for the data in this tx
 
 Inherited from: [BaseTransaction](basetransaction.basetransaction-1.md)
 
-Defined in: [baseTransaction.ts:126](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L126)
+Defined in: [baseTransaction.ts:126](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L126)
 
 ___
 
@@ -248,7 +248,7 @@ Computes a sha3-256 hash of the serialized unsigned tx, which is used to sign th
 
 Overrides: [BaseTransaction](basetransaction.basetransaction-1.md)
 
-Defined in: [legacyTransaction.ts:152](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/legacyTransaction.ts#L152)
+Defined in: [legacyTransaction.ts:152](https://github.com/siliconswampio/sbr-tx/blob/master/src/legacyTransaction.ts#L152)
 
 ___
 
@@ -262,7 +262,7 @@ Computes a sha3-256 hash which can be used to verify the signature
 
 Overrides: [BaseTransaction](basetransaction.basetransaction-1.md)
 
-Defined in: [legacyTransaction.ts:166](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/legacyTransaction.ts#L166)
+Defined in: [legacyTransaction.ts:166](https://github.com/siliconswampio/sbr-tx/blob/master/src/legacyTransaction.ts#L166)
 
 ___
 
@@ -276,7 +276,7 @@ Returns the sender's address
 
 Inherited from: [BaseTransaction](basetransaction.basetransaction-1.md)
 
-Defined in: [baseTransaction.ts:191](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L191)
+Defined in: [baseTransaction.ts:191](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L191)
 
 ___
 
@@ -290,7 +290,7 @@ Returns the public key of the sender
 
 Overrides: [BaseTransaction](basetransaction.basetransaction-1.md)
 
-Defined in: [legacyTransaction.ts:174](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/legacyTransaction.ts#L174)
+Defined in: [legacyTransaction.ts:174](https://github.com/siliconswampio/sbr-tx/blob/master/src/legacyTransaction.ts#L174)
 
 ___
 
@@ -304,7 +304,7 @@ The up front amount that an account must have for this transaction to be valid
 
 Inherited from: [BaseTransaction](basetransaction.basetransaction-1.md)
 
-Defined in: [baseTransaction.ts:140](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L140)
+Defined in: [baseTransaction.ts:140](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L140)
 
 ___
 
@@ -318,7 +318,7 @@ Computes a sha3-256 hash of the serialized tx
 
 Overrides: [BaseTransaction](basetransaction.basetransaction-1.md)
 
-Defined in: [legacyTransaction.ts:159](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/legacyTransaction.ts#L159)
+Defined in: [legacyTransaction.ts:159](https://github.com/siliconswampio/sbr-tx/blob/master/src/legacyTransaction.ts#L159)
 
 ___
 
@@ -330,7 +330,7 @@ ___
 
 Inherited from: [BaseTransaction](basetransaction.basetransaction-1.md)
 
-Defined in: [baseTransaction.ts:170](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L170)
+Defined in: [baseTransaction.ts:170](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L170)
 
 ___
 
@@ -344,7 +344,7 @@ Returns a Buffer Array of the raw Buffers of this transaction, in order.
 
 Overrides: [BaseTransaction](basetransaction.basetransaction-1.md)
 
-Defined in: [legacyTransaction.ts:105](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/legacyTransaction.ts#L105)
+Defined in: [legacyTransaction.ts:105](https://github.com/siliconswampio/sbr-tx/blob/master/src/legacyTransaction.ts#L105)
 
 ___
 
@@ -358,7 +358,7 @@ Returns the rlp encoding of the transaction.
 
 Overrides: [BaseTransaction](basetransaction.basetransaction-1.md)
 
-Defined in: [legacyTransaction.ts:122](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/legacyTransaction.ts#L122)
+Defined in: [legacyTransaction.ts:122](https://github.com/siliconswampio/sbr-tx/blob/master/src/legacyTransaction.ts#L122)
 
 ___
 
@@ -370,15 +370,15 @@ Signs a tx and returns a new signed tx object
 
 #### Parameters:
 
-Name | Type |
-:------ | :------ |
-`privateKey` | *Buffer* |
+| Name | Type |
+| :------ | :------ |
+| `privateKey` | *Buffer* |
 
 **Returns:** [*default*](legacytransaction.default.md)
 
 Inherited from: [BaseTransaction](basetransaction.basetransaction-1.md)
 
-Defined in: [baseTransaction.ts:203](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L203)
+Defined in: [baseTransaction.ts:203](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L203)
 
 ___
 
@@ -392,7 +392,7 @@ If the tx's `to` is to the creation address
 
 Inherited from: [BaseTransaction](basetransaction.basetransaction-1.md)
 
-Defined in: [baseTransaction.ts:147](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L147)
+Defined in: [baseTransaction.ts:147](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L147)
 
 ___
 
@@ -406,7 +406,7 @@ Returns an object with the JSON representation of the transaction
 
 Overrides: [BaseTransaction](basetransaction.basetransaction-1.md)
 
-Defined in: [legacyTransaction.ts:234](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/legacyTransaction.ts#L234)
+Defined in: [legacyTransaction.ts:234](https://github.com/siliconswampio/sbr-tx/blob/master/src/legacyTransaction.ts#L234)
 
 ___
 
@@ -421,35 +421,35 @@ Checks if the transaction has the minimum amount of gas required
 
 Inherited from: [BaseTransaction](basetransaction.basetransaction-1.md)
 
-Defined in: [baseTransaction.ts:95](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L95)
+Defined in: [baseTransaction.ts:95](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L95)
 
-▸ **validate**(`stringError`: *false*): *boolean*
+▸ **validate**(`stringError`: ``false``): *boolean*
 
 #### Parameters:
 
-Name | Type |
-:------ | :------ |
-`stringError` | *false* |
+| Name | Type |
+| :------ | :------ |
+| `stringError` | ``false`` |
 
 **Returns:** *boolean*
 
 Inherited from: [BaseTransaction](basetransaction.basetransaction-1.md)
 
-Defined in: [baseTransaction.ts:96](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L96)
+Defined in: [baseTransaction.ts:96](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L96)
 
-▸ **validate**(`stringError`: *true*): *string*[]
+▸ **validate**(`stringError`: ``true``): *string*[]
 
 #### Parameters:
 
-Name | Type |
-:------ | :------ |
-`stringError` | *true* |
+| Name | Type |
+| :------ | :------ |
+| `stringError` | ``true`` |
 
 **Returns:** *string*[]
 
 Inherited from: [BaseTransaction](basetransaction.basetransaction-1.md)
 
-Defined in: [baseTransaction.ts:97](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L97)
+Defined in: [baseTransaction.ts:97](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L97)
 
 ___
 
@@ -463,7 +463,7 @@ Determines if the signature is valid
 
 Inherited from: [BaseTransaction](basetransaction.basetransaction-1.md)
 
-Defined in: [baseTransaction.ts:178](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L178)
+Defined in: [baseTransaction.ts:178](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L178)
 
 ___
 
@@ -479,14 +479,14 @@ in favor of the `fromSerializedTx()` constructor
 
 #### Parameters:
 
-Name | Type | Default value |
-:------ | :------ | :------ |
-`serialized` | *Buffer* | - |
-`opts` | [*TxOptions*](../interfaces/types.txoptions.md) | {} |
+| Name | Type | Default value |
+| :------ | :------ | :------ |
+| `serialized` | *Buffer* | - |
+| `opts` | [*TxOptions*](../interfaces/types.txoptions.md) | {} |
 
 **Returns:** [*default*](legacytransaction.default.md)
 
-Defined in: [legacyTransaction.ts:45](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/legacyTransaction.ts#L45)
+Defined in: [legacyTransaction.ts:45](https://github.com/siliconswampio/sbr-tx/blob/master/src/legacyTransaction.ts#L45)
 
 ___
 
@@ -498,14 +498,14 @@ Instantiate a transaction from the serialized tx.
 
 #### Parameters:
 
-Name | Type | Default value |
-:------ | :------ | :------ |
-`serialized` | *Buffer* | - |
-`opts` | [*TxOptions*](../interfaces/types.txoptions.md) | {} |
+| Name | Type | Default value |
+| :------ | :------ | :------ |
+| `serialized` | *Buffer* | - |
+| `opts` | [*TxOptions*](../interfaces/types.txoptions.md) | {} |
 
 **Returns:** [*default*](legacytransaction.default.md)
 
-Defined in: [legacyTransaction.ts:28](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/legacyTransaction.ts#L28)
+Defined in: [legacyTransaction.ts:28](https://github.com/siliconswampio/sbr-tx/blob/master/src/legacyTransaction.ts#L28)
 
 ___
 
@@ -517,14 +517,14 @@ Instantiate a transaction from a data dictionary
 
 #### Parameters:
 
-Name | Type | Default value |
-:------ | :------ | :------ |
-`txData` | [*TxData*](../modules/types.md#txdata) | - |
-`opts` | [*TxOptions*](../interfaces/types.txoptions.md) | {} |
+| Name | Type | Default value |
+| :------ | :------ | :------ |
+| `txData` | [*TxData*](../modules/types.md#txdata) | - |
+| `opts` | [*TxOptions*](../interfaces/types.txoptions.md) | {} |
 
 **Returns:** [*default*](legacytransaction.default.md)
 
-Defined in: [legacyTransaction.ts:21](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/legacyTransaction.ts#L21)
+Defined in: [legacyTransaction.ts:21](https://github.com/siliconswampio/sbr-tx/blob/master/src/legacyTransaction.ts#L21)
 
 ___
 
@@ -539,11 +539,11 @@ nonce, gasPrice, gasLimit, to, value, data, v, r, s
 
 #### Parameters:
 
-Name | Type | Default value |
-:------ | :------ | :------ |
-`values` | *Buffer*[] | - |
-`opts` | [*TxOptions*](../interfaces/types.txoptions.md) | {} |
+| Name | Type | Default value |
+| :------ | :------ | :------ |
+| `values` | *Buffer*[] | - |
+| `opts` | [*TxOptions*](../interfaces/types.txoptions.md) | {} |
 
 **Returns:** [*default*](legacytransaction.default.md)
 
-Defined in: [legacyTransaction.ts:55](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/legacyTransaction.ts#L55)
+Defined in: [legacyTransaction.ts:55](https://github.com/siliconswampio/sbr-tx/blob/master/src/legacyTransaction.ts#L55)

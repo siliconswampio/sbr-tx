@@ -1,7 +1,7 @@
 import tape from 'tape'
 import { Buffer } from 'buffer'
 import { BN, rlp, toBuffer, bufferToHex, unpadBuffer } from 'sbr-util'
-import Common from '@ethereumjs/common'
+import Common from '@sbr/common'
 import { Transaction, TxData } from '../src'
 import { TxsJsonEntry, VitaliksTestsDataEntry } from './types'
 

@@ -32,7 +32,7 @@
     "test:browser": "npm run test:browser:build && karma start karma.conf.js"
   },
   "dependencies": {
-    "@ethereumjs/common": "^2.2.0",
+    "@sbr/common": "git+https://github.com/siliconswampio/sbr-common.git",
     "sbr-util": "git+https://github.com/siliconswampio/sbr-util.git"
   },
   "devDependencies": {

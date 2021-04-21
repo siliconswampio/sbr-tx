@@ -1,4 +1,4 @@
-[@ethereumjs/tx](../README.md) / transactionFactory
+[@sbr/tx](../README.md) / transactionFactory
 
 # Module: transactionFactory
 

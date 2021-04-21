@@ -43,7 +43,7 @@ This release comes with full support for the `berlin` hardfork by updating the l
 `EIP-2930` transactions can be instantiated with:
 
 ```typescript
-import Common from '@ethereumjs/common'
+import Common from '@sbr/common'
 import { AccessListEIP2930Transaction } from '@ethereumjs/tx'
 
 const common = new Common({ chain: 'mainnet', hardfork: 'berlin' })
@@ -84,7 +84,7 @@ For more guidance on how to use the new tx types and the tx factory have a look 
 
 If you are using this library in conjunction with other EthereumJS libraries make sure to minimally have the following library versions installed for typed transaction support:
 
-- `@ethereumjs/common` `v2.2.0`
+- `@sbr/common` `v2.2.0`
 - `@ethereumjs/tx` `v3.1.0`
 - `@ethereumjs/block` `v3.2.0`
 - `@ethereumjs/blockchain` `v5.2.0`

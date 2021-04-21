@@ -1,7 +1,7 @@
 /// <reference types="node" />
 /// <reference types="bn.js" />
 import { BN, AddressLike, BNLike, BufferLike, PrefixedHexString } from 'sbr-util';
-import Common from '@ethereumjs/common';
+import Common from '@sbr/common';
 import { default as Transaction } from './legacyTransaction';
 import { default as AccessListEIP2930Transaction } from './eip2930Transaction';
 /**

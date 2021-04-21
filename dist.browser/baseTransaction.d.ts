@@ -1,6 +1,6 @@
 /// <reference types="bn.js" />
 /// <reference types="node" />
-import Common from '@ethereumjs/common';
+import Common from '@sbr/common';
 import { Address, BN } from 'sbr-util';
 import { TxData, TxOptions, JsonTx, AccessListEIP2930ValuesArray, AccessListEIP2930TxData } from './types';
 /**

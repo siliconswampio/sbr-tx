@@ -1,5 +1,5 @@
 import { Address } from 'sbr-util'
-import Common from '@ethereumjs/common'
+import Common from '@sbr/common'
 import { Transaction } from '../src'
 
 // In this example we create a transaction for a custom network.

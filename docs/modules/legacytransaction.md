@@ -1,4 +1,4 @@
-[@ethereumjs/tx](../README.md) / legacyTransaction
+[@sbr/tx](../README.md) / legacyTransaction
 
 # Module: legacyTransaction
 

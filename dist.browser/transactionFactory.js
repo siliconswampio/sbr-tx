@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var sbr_util_1 = require("sbr-util");
-var common_1 = __importDefault(require("@ethereumjs/common"));
+var common_1 = __importDefault(require("@sbr/common"));
 var legacyTransaction_1 = __importDefault(require("./legacyTransaction"));
 var eip2930Transaction_1 = __importDefault(require("./eip2930Transaction"));
 var DEFAULT_COMMON = new common_1.default({ chain: 'mainnet' });

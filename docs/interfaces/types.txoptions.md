@@ -1,4 +1,4 @@
-[@ethereumjs/tx](../README.md) / [types](../modules/types.md) / TxOptions
+[@sbr/tx](../README.md) / [types](../modules/types.md) / TxOptions
 
 # Interface: TxOptions
 
@@ -28,7 +28,7 @@ Default: `Common` object set to `mainnet` and the default hardfork as defined in
 
 Current default hardfork: `istanbul`
 
-Defined in: [types.ts:20](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L20)
+Defined in: [types.ts:20](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L20)
 
 ___
 
@@ -45,4 +45,4 @@ within your code instead.
 
 Default: true
 
-Defined in: [types.ts:31](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L31)
+Defined in: [types.ts:31](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L31)

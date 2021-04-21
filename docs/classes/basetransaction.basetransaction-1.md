@@ -1,4 +1,4 @@
-[@ethereumjs/tx](../README.md) / [baseTransaction](../modules/basetransaction.md) / BaseTransaction
+[@sbr/tx](../README.md) / [baseTransaction](../modules/basetransaction.md) / BaseTransaction
 
 # Class: BaseTransaction<TransactionObject\>
 
@@ -12,9 +12,9 @@ It is therefore not recommended to use directly.
 
 ## Type parameters
 
-Name |
-:------ |
-`TransactionObject` |
+| Name |
+| :------ |
+| `TransactionObject` |
 
 ## Hierarchy
 
@@ -75,20 +75,20 @@ Name |
 
 #### Type parameters:
 
-Name |
-:------ |
-`TransactionObject` |
+| Name |
+| :------ |
+| `TransactionObject` |
 
 #### Parameters:
 
-Name | Type | Default value |
-:------ | :------ | :------ |
-`txData` | [*TxData*](../modules/types.md#txdata) \| [*AccessListEIP2930TxData*](../interfaces/types.accesslisteip2930txdata.md) | - |
-`txOptions` | [*TxOptions*](../interfaces/types.txoptions.md) | {} |
+| Name | Type | Default value |
+| :------ | :------ | :------ |
+| `txData` | [*TxData*](../modules/types.md#txdata) \| [*AccessListEIP2930TxData*](../interfaces/types.accesslisteip2930txdata.md) | - |
+| `txOptions` | [*TxOptions*](../interfaces/types.txoptions.md) | {} |
 
 **Returns:** [*BaseTransaction*](basetransaction.basetransaction-1.md)<TransactionObject\>
 
-Defined in: [baseTransaction.ts:39](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L39)
+Defined in: [baseTransaction.ts:39](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L39)
 
 ## Properties
 
@@ -96,7 +96,7 @@ Defined in: [baseTransaction.ts:39](https://github.com/ethereumjs/ethereumjs-mon
 
 • `Readonly` **common**: *default*
 
-Defined in: [baseTransaction.ts:35](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L35)
+Defined in: [baseTransaction.ts:35](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L35)
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 • `Readonly` **data**: *Buffer*
 
-Defined in: [baseTransaction.ts:34](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L34)
+Defined in: [baseTransaction.ts:34](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L34)
 
 ___
 
@@ -112,7 +112,7 @@ ___
 
 • `Readonly` **gasLimit**: *BN*
 
-Defined in: [baseTransaction.ts:30](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L30)
+Defined in: [baseTransaction.ts:30](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L30)
 
 ___
 
@@ -120,7 +120,7 @@ ___
 
 • `Readonly` **gasPrice**: *BN*
 
-Defined in: [baseTransaction.ts:31](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L31)
+Defined in: [baseTransaction.ts:31](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L31)
 
 ___
 
@@ -128,7 +128,7 @@ ___
 
 • `Readonly` **nonce**: *BN*
 
-Defined in: [baseTransaction.ts:29](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L29)
+Defined in: [baseTransaction.ts:29](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L29)
 
 ___
 
@@ -136,7 +136,7 @@ ___
 
 • `Optional` `Readonly` **r**: *BN*
 
-Defined in: [baseTransaction.ts:38](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L38)
+Defined in: [baseTransaction.ts:38](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L38)
 
 ___
 
@@ -144,7 +144,7 @@ ___
 
 • `Optional` `Readonly` **s**: *BN*
 
-Defined in: [baseTransaction.ts:39](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L39)
+Defined in: [baseTransaction.ts:39](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L39)
 
 ___
 
@@ -152,7 +152,7 @@ ___
 
 • `Optional` `Readonly` **to**: *Address*
 
-Defined in: [baseTransaction.ts:32](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L32)
+Defined in: [baseTransaction.ts:32](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L32)
 
 ___
 
@@ -160,7 +160,7 @@ ___
 
 • `Optional` `Readonly` **v**: *BN*
 
-Defined in: [baseTransaction.ts:37](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L37)
+Defined in: [baseTransaction.ts:37](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L37)
 
 ___
 
@@ -168,7 +168,7 @@ ___
 
 • `Readonly` **value**: *BN*
 
-Defined in: [baseTransaction.ts:33](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L33)
+Defined in: [baseTransaction.ts:33](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L33)
 
 ## Accessors
 
@@ -180,7 +180,7 @@ Returns the transaction type
 
 **Returns:** *number*
 
-Defined in: [baseTransaction.ts:80](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L80)
+Defined in: [baseTransaction.ts:80](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L80)
 
 ___
 
@@ -192,7 +192,7 @@ Alias for `transactionType`
 
 **Returns:** *number*
 
-Defined in: [baseTransaction.ts:87](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L87)
+Defined in: [baseTransaction.ts:87](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L87)
 
 ## Methods
 
@@ -204,7 +204,7 @@ The minimum amount of gas the tx must have (DataFee + TxFee + Creation Fee)
 
 **Returns:** *BN*
 
-Defined in: [baseTransaction.ts:115](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L115)
+Defined in: [baseTransaction.ts:115](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L115)
 
 ___
 
@@ -216,7 +216,7 @@ The amount of gas paid for the data in this tx
 
 **Returns:** *BN*
 
-Defined in: [baseTransaction.ts:126](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L126)
+Defined in: [baseTransaction.ts:126](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L126)
 
 ___
 
@@ -228,7 +228,7 @@ Computes a sha3-256 hash of the serialized unsigned tx, which is used to sign th
 
 **Returns:** *Buffer*
 
-Defined in: [baseTransaction.ts:164](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L164)
+Defined in: [baseTransaction.ts:164](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L164)
 
 ___
 
@@ -238,7 +238,7 @@ ___
 
 **Returns:** *Buffer*
 
-Defined in: [baseTransaction.ts:168](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L168)
+Defined in: [baseTransaction.ts:168](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L168)
 
 ___
 
@@ -250,7 +250,7 @@ Returns the sender's address
 
 **Returns:** *Address*
 
-Defined in: [baseTransaction.ts:191](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L191)
+Defined in: [baseTransaction.ts:191](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L191)
 
 ___
 
@@ -262,7 +262,7 @@ Returns the public key of the sender
 
 **Returns:** *Buffer*
 
-Defined in: [baseTransaction.ts:198](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L198)
+Defined in: [baseTransaction.ts:198](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L198)
 
 ___
 
@@ -274,7 +274,7 @@ The up front amount that an account must have for this transaction to be valid
 
 **Returns:** *BN*
 
-Defined in: [baseTransaction.ts:140](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L140)
+Defined in: [baseTransaction.ts:140](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L140)
 
 ___
 
@@ -284,7 +284,7 @@ ___
 
 **Returns:** *Buffer*
 
-Defined in: [baseTransaction.ts:166](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L166)
+Defined in: [baseTransaction.ts:166](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L166)
 
 ___
 
@@ -294,7 +294,7 @@ ___
 
 **Returns:** *boolean*
 
-Defined in: [baseTransaction.ts:170](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L170)
+Defined in: [baseTransaction.ts:170](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L170)
 
 ___
 
@@ -306,7 +306,7 @@ Returns a Buffer Array of the raw Buffers of this transaction, in order.
 
 **Returns:** *Buffer*[] \| [*AccessListEIP2930ValuesArray*](../modules/types.md#accesslisteip2930valuesarray)
 
-Defined in: [baseTransaction.ts:154](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L154)
+Defined in: [baseTransaction.ts:154](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L154)
 
 ___
 
@@ -318,7 +318,7 @@ Returns the encoding of the transaction.
 
 **Returns:** *Buffer*
 
-Defined in: [baseTransaction.ts:159](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L159)
+Defined in: [baseTransaction.ts:159](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L159)
 
 ___
 
@@ -330,13 +330,13 @@ Signs a tx and returns a new signed tx object
 
 #### Parameters:
 
-Name | Type |
-:------ | :------ |
-`privateKey` | *Buffer* |
+| Name | Type |
+| :------ | :------ |
+| `privateKey` | *Buffer* |
 
 **Returns:** TransactionObject
 
-Defined in: [baseTransaction.ts:203](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L203)
+Defined in: [baseTransaction.ts:203](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L203)
 
 ___
 
@@ -348,7 +348,7 @@ If the tx's `to` is to the creation address
 
 **Returns:** *boolean*
 
-Defined in: [baseTransaction.ts:147](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L147)
+Defined in: [baseTransaction.ts:147](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L147)
 
 ___
 
@@ -360,7 +360,7 @@ Returns an object with the JSON representation of the transaction
 
 **Returns:** [*JsonTx*](../interfaces/types.jsontx.md)
 
-Defined in: [baseTransaction.ts:215](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L215)
+Defined in: [baseTransaction.ts:215](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L215)
 
 ___
 
@@ -373,31 +373,31 @@ Checks if the transaction has the minimum amount of gas required
 
 **Returns:** *boolean*
 
-Defined in: [baseTransaction.ts:95](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L95)
+Defined in: [baseTransaction.ts:95](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L95)
 
-▸ **validate**(`stringError`: *false*): *boolean*
+▸ **validate**(`stringError`: ``false``): *boolean*
 
 #### Parameters:
 
-Name | Type |
-:------ | :------ |
-`stringError` | *false* |
+| Name | Type |
+| :------ | :------ |
+| `stringError` | ``false`` |
 
 **Returns:** *boolean*
 
-Defined in: [baseTransaction.ts:96](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L96)
+Defined in: [baseTransaction.ts:96](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L96)
 
-▸ **validate**(`stringError`: *true*): *string*[]
+▸ **validate**(`stringError`: ``true``): *string*[]
 
 #### Parameters:
 
-Name | Type |
-:------ | :------ |
-`stringError` | *true* |
+| Name | Type |
+| :------ | :------ |
+| `stringError` | ``true`` |
 
 **Returns:** *string*[]
 
-Defined in: [baseTransaction.ts:97](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L97)
+Defined in: [baseTransaction.ts:97](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L97)
 
 ___
 
@@ -409,4 +409,4 @@ Determines if the signature is valid
 
 **Returns:** *boolean*
 
-Defined in: [baseTransaction.ts:178](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/baseTransaction.ts#L178)
+Defined in: [baseTransaction.ts:178](https://github.com/siliconswampio/sbr-tx/blob/master/src/baseTransaction.ts#L178)

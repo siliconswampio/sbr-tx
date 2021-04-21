@@ -1,4 +1,4 @@
-[@ethereumjs/tx](../README.md) / eip2930Transaction
+[@sbr/tx](../README.md) / eip2930Transaction
 
 # Module: eip2930Transaction
 

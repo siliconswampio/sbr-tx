@@ -1,4 +1,4 @@
-[@ethereumjs/tx](../README.md) / baseTransaction
+[@sbr/tx](../README.md) / baseTransaction
 
 # Module: baseTransaction
 

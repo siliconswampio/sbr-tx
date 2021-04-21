@@ -1,4 +1,4 @@
-import Common from '@ethereumjs/common'
+import Common from '@sbr/common'
 import { Address, BN, bufferToHex, privateToAddress } from 'sbr-util'
 import tape from 'tape'
 import { AccessList, AccessListEIP2930Transaction } from '../src'

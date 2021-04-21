@@ -1,4 +1,4 @@
-[@ethereumjs/tx](../README.md) / [types](../modules/types.md) / JsonTx
+[@sbr/tx](../README.md) / [types](../modules/types.md) / JsonTx
 
 # Interface: JsonTx
 
@@ -29,7 +29,7 @@ An object with all of the transaction's values represented as strings.
 
 • `Optional` **accessList**: JsonAccessListItem[]
 
-Defined in: [types.ts:170](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L170)
+Defined in: [types.ts:170](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L170)
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 • `Optional` **chainId**: *string*
 
-Defined in: [types.ts:169](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L169)
+Defined in: [types.ts:169](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L169)
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 • `Optional` **data**: *string*
 
-Defined in: [types.ts:164](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L164)
+Defined in: [types.ts:164](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L164)
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 • `Optional` **gasLimit**: *string*
 
-Defined in: [types.ts:162](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L162)
+Defined in: [types.ts:162](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L162)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 • `Optional` **gasPrice**: *string*
 
-Defined in: [types.ts:161](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L161)
+Defined in: [types.ts:161](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L161)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 • `Optional` **nonce**: *string*
 
-Defined in: [types.ts:160](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L160)
+Defined in: [types.ts:160](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L160)
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 • `Optional` **r**: *string*
 
-Defined in: [types.ts:166](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L166)
+Defined in: [types.ts:166](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L166)
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 • `Optional` **s**: *string*
 
-Defined in: [types.ts:167](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L167)
+Defined in: [types.ts:167](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L167)
 
 ___
 
@@ -93,7 +93,7 @@ ___
 
 • `Optional` **to**: *string*
 
-Defined in: [types.ts:163](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L163)
+Defined in: [types.ts:163](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L163)
 
 ___
 
@@ -101,7 +101,7 @@ ___
 
 • `Optional` **type**: *string*
 
-Defined in: [types.ts:171](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L171)
+Defined in: [types.ts:171](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L171)
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 • `Optional` **v**: *string*
 
-Defined in: [types.ts:165](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L165)
+Defined in: [types.ts:165](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L165)
 
 ___
 
@@ -117,4 +117,4 @@ ___
 
 • `Optional` **value**: *string*
 
-Defined in: [types.ts:168](https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/tx/src/types.ts#L168)
+Defined in: [types.ts:168](https://github.com/siliconswampio/sbr-tx/blob/master/src/types.ts#L168)
